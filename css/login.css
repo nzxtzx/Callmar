@@ -1,0 +1,290 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background: url('../img/reg-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 100;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 102;
+}
+
+.title{
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FCFCFC;
+}
+
+
+form{
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mail p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FCFCFC;    
+}
+
+.mail input{
+    margin-top: 10px;
+    width: 720px;
+    height: 75px;
+    padding: 20px;
+    background: #F3F3F3;
+    border: 3px solid #FFFFFF;
+    box-shadow: inset 0px 0px 20px -1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    transition: border 0.3s ease-in;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #D75C78;
+}
+
+.mail input:focus{
+    border: 3px solid #D75C78;
+    box-shadow: inset 0px 0px 20px -1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    transition: 0.3s ease-in;
+}
+
+.pass{
+    margin-top: 40px;
+}
+
+.pass p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FCFCFC;    
+}
+
+.pass input{
+    margin-top: 10px;
+    display: inline-block;
+    width: 720px;
+    height: 75px;
+    padding: 20px;
+    background: #F3F3F3;
+    border: 3px solid #FFFFFF;
+    box-shadow: inset 0px 0px 20px -1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #D75C78;
+    transition: border 0.3s ease-in;
+}
+
+.pass input:focus{
+    border: 3px solid #D75C78;
+    box-shadow: inset 0px 0px 20px -1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    transition: 0.3s ease-in;
+}
+
+.login {
+    display: inline-block;
+}
+
+.re-login{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right; 
+    color: #D75C78;
+    transition: 0.3s;
+}
+
+.re-login:hover{
+    color: #C83E5D;
+    transition: 0.3s;
+}
+
+.submit{
+    margin-top: 62px;
+    display: inline-block;
+    width: 340px;
+    height: 75px;
+    background: #D75C78;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    filter: drop-shadow(0px 17px 32px rgba(0, 0, 0, 0.25));
+    transition: 0.3s;
+}
+
+.submit:hover{
+    background: #C83E5D;
+    transition: 0.3s;
+}
+
+.registration {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+    width: 160px;
+    height: 28px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: 0.3s;
+    position: relative;
+    z-index: 101;
+}
+
+
+.registration:hover{
+    color: #D75C78;
+    transition: 0.3s;
+}
+
+@media (max-width: 1200px) {
+    .title{
+        font-size: 36px;
+    }
+
+    form{
+        margin-top: 100px;
+        align-items: center;
+    }
+
+    .mail input{
+        width: 520px;
+        height: 65px;
+    }
+
+    .pass input{
+        width: 520px;
+        height: 65px;
+    }
+}
+
+@media (max-width: 678px) {
+    .title{
+        font-size: 26px;
+    }
+
+    form{
+        margin-top: 50px;
+        align-items: center;
+    }
+
+    .mail input{
+        width: 420px;
+        height: 55px;
+    }
+
+    .pass input{
+        width: 420px;
+        height: 55px;
+    }
+
+    .submit{
+        width: 240px;
+        height: 55px;
+        font-size: 20px;
+    }
+
+    .registration{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 500px) {
+    .title{
+        margin-top: 117px;
+        font-size: 24px;
+    }
+
+    .mail input{
+        width: 350px;
+        height: 36px;    
+        font-size: 18px;
+    }
+
+    .pass input{
+        width: 350px;
+        height: 36px;
+        font-size: 18px;
+    }
+
+    .submit{
+        margin-top: 100px;
+        width: 350px;
+        height: 57px;
+        font-size: 24px;
+    }
+
+    .re-login{
+        font-size: 18px;
+    }
+
+    .registration{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 389px) {
+    .title{
+        margin-top: 60px;
+        font-size: 24px;
+    }
+
+    form{
+        margin-top: 30px;
+    }
+
+    .mail input{
+        width: 280px;
+        height: 36px;    
+        font-size: 18px;
+    }
+
+    .pass input{
+        width: 280px;
+        height: 36px;
+        font-size: 18px;
+    }
+
+    .submit{
+        margin-top: 70px;
+        width: 260px;
+        height: 57px;
+        font-size: 24px;
+    }
+
+    .re-login{
+        font-size: 18px;
+    }
+
+    .registration{
+        font-size: 24px;
+    }
+}

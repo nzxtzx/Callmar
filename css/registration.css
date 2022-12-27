@@ -1,0 +1,499 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background: url('../img/reg-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    margin-top: 110px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: left;
+    color: #FCFCFC;
+}
+
+.container p:nth-child(2){
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FCFCFC;    
+}
+
+.container p:nth-child(3){
+    text-align: left;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FCFCFC;    
+}
+
+form{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mail p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FCFCFC;    
+}
+
+.mail input{
+    margin-top: 10px;
+    width: 720px;
+    height: 75px;
+    padding: 20px;
+    background: #F3F3F3;
+    border: 3px solid #FFFFFF;
+    box-shadow: inset 0px 0px 20px -1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    transition: border 0.3s ease-in;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #D75C78;
+}
+
+.mail input:focus{
+    border: 3px solid #D75C78;
+    box-shadow: inset 0px 0px 20px -1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    transition: border 0.3s ease-in;
+}
+
+.pass{
+    margin-top: 40px;
+}
+
+.pass p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FCFCFC;    
+}
+
+.pass input{
+    margin-top: 10px;
+    display: inline-block;
+    width: 720px;
+    height: 75px;
+    padding: 20px;
+    background: #F3F3F3;
+    border: 3px solid #FFFFFF;
+    box-shadow: inset 0px 0px 20px -1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #D75C78;
+    transition: border 0.3s ease-in;
+}
+
+.pass input:focus{
+    border: 3px solid #D75C78;
+    box-shadow: inset 0px 0px 20px -1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    transition: border 0.3s ease-in;
+}
+
+.text{
+    margin-top: 40px;
+}
+
+.text p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FCFCFC;    
+}
+
+.text input{
+    margin-top: 10px;
+    display: inline-block;
+    width: 720px;
+    height: 75px;
+    padding: 20px;
+    background: #F3F3F3;
+    border: 3px solid #FFFFFF;
+    box-shadow: inset 0px 0px 20px -1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #D75C78;
+    transition: border 0.3s ease-in;
+}
+
+.text input:focus{
+    border: 3px solid #D75C78;
+    box-shadow: inset 0px 0px 20px -1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    transition: border 0.3s ease-in;
+}
+
+.text{
+    margin-top: 40px;
+}
+
+.text p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FCFCFC;    
+}
+
+.text input{
+    margin-top: 10px;
+    display: inline-block;
+    width: 720px;
+    height: 75px;
+    padding: 20px;
+    background: #F3F3F3;
+    border: 3px solid #FFFFFF;
+    box-shadow: inset 0px 0px 20px -1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #D75C78;
+    transition: border 0.3s ease-in;
+}
+
+.text input:focus{
+    border: 3px solid #D75C78;
+    box-shadow: inset 0px 0px 20px -1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    transition: border 0.3s ease-in;
+}
+
+.text-2{
+    margin-top: 40px;
+}
+
+.text-2 p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FCFCFC;    
+}
+
+.text-2 input{
+    margin-top: 10px;
+    display: inline-block;
+    width: 720px;
+    height: 75px;
+    padding: 20px;
+    background: #F3F3F3;
+    border: 3px solid #FFFFFF;
+    box-shadow: inset 0px 0px 20px -1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #D75C78;
+    transition: border 0.3s ease-in;
+}
+
+.text-2 input:focus{
+    border: 3px solid #D75C78;
+    box-shadow: inset 0px 0px 20px -1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    transition: border 0.3s ease-in;
+}
+
+.number{
+    margin-top: 40px;
+    
+}
+
+.number p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FCFCFC;    
+}
+
+.number input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.number[type='number'] {
+    -moz-appearance: textfield;
+}
+
+.number input{
+    margin-top: 10px;
+    display: inline-block;
+    width: 720px;
+    height: 75px;
+    padding: 20px;
+    background: #F3F3F3;
+    border: 3px solid #FFFFFF;
+    box-shadow: inset 0px 0px 20px -1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #D75C78;
+    transition: border 0.3s ease-in;
+}
+
+.number input:focus{
+    border: 3px solid #D75C78;
+    box-shadow: inset 0px 0px 20px -1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    transition: border 0.3s ease-in;
+}
+
+
+.submit{
+    margin-top: 62px;
+    margin-bottom: 172px;
+    display: inline-block;
+    width: 508px;
+    height: 75px;
+    background: #D75C78;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    filter: drop-shadow(0px 17px 32px rgba(0, 0, 0, 0.25));
+    transition: color 0.3s;
+}
+
+.submit:hover{
+    transition:  color 0.3s;
+    background: #C83E5D;
+}
+
+.registration {
+    margin-top: 50px;
+    display: block;
+    width: 160px;
+    height: 28px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: color 0.3s;
+}
+
+.registration:hover{
+    color: #D75C78;
+    transition: color 0.3s;
+}
+
+@media (max-width: 1200px) {
+    .title{
+        font-size: 36px;
+    }
+
+    form{
+        margin-top: 100px;
+        align-items: center;
+    }
+
+    .mail input{
+        width: 520px;
+        height: 65px;
+    }
+
+    .pass input{
+        width: 520px;
+        height: 65px;
+    }
+
+    .text input{
+        width: 520px;
+        height: 65px;
+
+    }
+
+    .text-2 input{
+        width: 520px;
+        height: 65px;
+    }
+
+    .number input{
+        width: 520px;
+        height: 65px;
+    }
+
+}
+
+@media (max-width: 678px) {
+    .title{
+        font-size: 26px;
+    }
+
+    form{
+        margin-top: 50px;
+        align-items: center;
+    }
+
+    .mail input{
+        width: 420px;
+        height: 55px;
+    }
+
+    .pass input{
+        width: 420px;
+        height: 55px;
+    }
+
+    .text input{
+        width: 420px;
+        height: 55px;
+
+    }
+
+    .text-2 input{
+        width: 420px;
+        height: 55px;
+    }
+
+    .number input{
+        width: 420px;
+        height: 55px;
+    }
+
+    .submit{
+        width: 240px;
+        height: 55px;
+        font-size: 20px;
+    }
+
+    .registration{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 500px) {
+    .title{
+        margin-top: 117px;
+        font-size: 24px;
+    }
+
+    .mail input{
+        width: 350px;
+        height: 36px;    
+        font-size: 18px;
+    }
+
+    .pass input{
+        width: 350px;
+        height: 36px;
+        font-size: 18px;
+    }
+
+    .text input{
+        width: 350px;
+        height: 36px;
+        font-size: 18px;
+    }
+
+    .text-2 input{
+        width: 350px;
+        height: 36px;
+        font-size: 18px;
+    }
+
+    .number input{
+        width: 350px;
+        height: 36px;
+        font-size: 18px;
+    }
+
+    .submit{
+        margin-top: 100px;
+        width: 350px;
+        height: 57px;
+        font-size: 24px;
+    }
+
+    .re-login{
+        font-size: 18px;
+    }
+
+    .registration{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 389px) {
+    .title{
+        margin-top: 60px;
+        font-size: 24px;
+    }
+
+    form{
+        margin-top: 30px;
+    }
+
+    .mail input{
+        width: 280px;
+        height: 36px;    
+        font-size: 18px;
+    }
+
+    .pass input{
+        width: 280px;
+        height: 36px;
+        font-size: 18px;
+    }
+
+    .text input{
+        width: 280px;
+        height: 36px;
+        font-size: 18px;
+    }
+
+    .text-2 input{
+        width: 280px;
+        height: 36px;
+        font-size: 18px;
+    }
+
+    .number input{
+        width: 280px;
+        height: 36px;
+        font-size: 18px;
+    }
+
+    .submit{
+        margin-top: 70px;
+        width: 260px;
+        height: 57px;
+        font-size: 24px;
+    }
+
+    .re-login{
+        font-size: 18px;
+    }
+
+    .registration{
+        font-size: 24px;
+    }
+}
